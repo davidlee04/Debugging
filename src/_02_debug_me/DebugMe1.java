@@ -4,7 +4,7 @@ package _02_debug_me;
 
 class DebugMe1 {
 	public static void main(String[] args) {
-		int[] numbers = new int[4];
+		int[] numbers = new int[5];
 		for (int i = 1; i < 5; i++) {
 			System.out.println("About to try to insert " + i + " into the array at position " + i);
 			numbers[i] = i;
